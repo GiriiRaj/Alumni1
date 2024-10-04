@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for Event</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1>Event Registration</h1>
+                <div class="navbar-dropdown">
+                    <button>Menu</button>
+                    <div class="navbar-dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="events.html">Events</a>
+                        <a href="networking.html">Networking</a>
+                        <a href="donation.html">Donation</a>
+                        <a href="jobs.html">Jobs</a>
+                        <a href="login.html">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Registration Form Section -->
+    <section class="register-section">
+        <div class="register-container">
+            <h2>Register for Event</h2>
+            <form id="event-register-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                <label for="event">Select Event:</label>
+                <select id="event" name="event" required>
+                    <option value="networking">Networking Event</option>
+                    <option value="career_fair">Career Fair</option>
+                    <option value="workshop">Workshop</option>
+                </select>
+
+                <button type="button" id="registerEventBtn" class="register-button">Register Now</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

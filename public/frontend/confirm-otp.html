@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm OTP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="nav-container">
+            <h1>Confirm Your OTP</h1>
+            <div class="navbar-dropdown">
+                <button>Menu</button>
+                <div class="navbar-dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="register.html">Register</a>
+                    <a href="networking.html">Networking</a>
+                    <a href="donation.html">Donation</a>
+                    <a href="jobs.html">Jobs</a>
+                    <a href="events.html">Events</a>
+                    <a href="profile.html">Profile</a>
+                    <a href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- OTP Confirmation Section -->
+    <section class="otp-section">
+        <div class="otp-container">
+            <h2>Please Confirm Your OTP</h2>
+            <p>Enter the OTP sent to your email.</p>
+            <form id="otpForm" class="otp-form">
+                <div class="form-group">
+                    <label for="otp">Enter OTP:</label>
+                    <input type="text" id="otp" name="otp" placeholder="Enter your OTP" required>
+                </div>
+                <button type="button" id="verifyOtpBtn" class="verify-btn">Verify OTP</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

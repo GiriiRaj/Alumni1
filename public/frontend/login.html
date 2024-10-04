@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Your Account</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure the CSS is correctly linked -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="nav-container">
+            <h1>Alumni Engagement Platform</h1>
+            <div class="navbar-dropdown">
+                <button>Menu</button>
+                <div class="navbar-dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="register.html">Register</a>
+                    <a href="networking.html">Networking</a>
+                    <a href="donation.html">Donation</a>
+                    <a href="jobs.html">Jobs</a>
+                    <a href="events.html">Events</a>
+                    <a href="login.html">Login</a>
+                    <a href="dashboard.html">Dashboard</a>
+                    <a href="profile.html">Profile</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Login Section -->
+    <section class="login-section">
+        <div class="login-container">
+            <h2>Login to Your Account</h2>
+            <form id="loginForm" method="POST"> <!-- Removed action attribute -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <button type="submit" class="login-button">Login</button>
+            </form>
+            <p class="register-link">Don't have an account? <a href="register.html">Register here</a></p>
+            <p id="loginMessage" style="color: red;"></p>  <!-- For displaying login messages -->
+        </div>
+    </section>
+
+    <script src="script.js"></script> <!-- Link your JavaScript file -->
+</body>
+</html>

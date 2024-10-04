@@ -1,0 +1,1093 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 0;
+    position: relative;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 28px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-dropdown {
+    position: relative;
+}
+
+.navbar-dropdown button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.navbar-dropdown button:hover {
+    background-color: #004494;
+}
+
+.navbar-dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #0056b3;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.navbar-dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-dropdown-content a:hover {
+    background-color: #004494;
+}
+
+.navbar-dropdown:hover .navbar-dropdown-content {
+    display: block;
+}
+/* Home Page */
+/* Header Section */
+header {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-container h1 {
+    margin: 0;
+}
+
+.navbar-dropdown button {
+    background: #003d7a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.navbar-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #003d7a;
+    border-radius: 4px;
+    right: 0;
+    top: 50px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dropdown-content a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-dropdown-content a:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('clg1.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin: 10px 0 20px;
+}
+
+.hero-button {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero-button:hover {
+    background-color: #e55b00;
+}
+
+/* Features Section */
+.features-section {
+    padding: 40px 20px;
+    background-color: #f3f4f6;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    color: #0056b3;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Register Section */
+.register-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background-color: #e9ecef;
+}
+
+.register-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #0056b3;
+}
+
+.register-container p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register-container label {
+    font-weight: bold;
+    color: #333;
+}
+
+.register-container input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Password Input Styling */
+.register-container input[type="password"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.register-button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Donation Page */
+.donation-section {
+    padding: 60px 20px;
+    background-color: #e9ecef;
+}
+
+.donation-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.donation-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #0056b3;
+}
+
+.donation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.donation-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.donation-form input,
+.donation-form select,
+.donation-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.donation-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donation-form button:hover {
+    background-color: #0056b3;
+}
+/* Networking Section */
+.networking-section {
+    padding: 60px 20px;
+    background-color: #e9ecef;
+}
+
+.networking-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.user-list {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-list h3 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+.user-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.chat-box {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box h3 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+.chat-window {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.chat-input {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.send-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
+/* Jobs Section */
+.jobs-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.jobs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.jobs-section h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.job-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.job-header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.job-header h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.job-header .company {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.job-details {
+    padding: 20px;
+}
+
+.job-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.job-apply-button {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.job-apply-button:hover {
+    background-color: #0056b3;
+}
+/* Profile Section */
+.profile-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.profile-card h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #0056b3;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.profile-save-btn {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-save-btn:hover {
+    background-color: #003d7a;
+}
+/* Dashboard Section */
+.welcome-section {
+    padding: 60px 20px;
+    background-color: #f3f4f6;
+    text-align: center;
+}
+
+.welcome-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.welcome-section h2 {
+    font-size: 32px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Dashboard Features Section */
+.dashboard-features-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.dashboard-feature {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.dashboard-feature h3 {
+    font-size: 24px;
+    color: #0056b3;
+    margin-top: 0;
+}
+
+.dashboard-feature p {
+    font-size: 16px;
+    color: #333;
+}
+
+.dashboard-button {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+    background-color: #003d7a;
+}
+/* Login Section */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 28px;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #003d7a;
+}
+
+.register-link {
+    margin-top: 15px;
+}
+
+.register-link a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+/* OTP Section */
+.otp-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.otp-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.otp-container h2 {
+    font-size: 28px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.otp-container p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.otp-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    width: 100%;
+}
+
+.verify-btn {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.verify-btn:hover {
+    background-color: #003d7a;
+}
+/* Header Section */
+header {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-container h1 {
+    margin: 0;
+}
+
+.navbar-dropdown button {
+    background: #003d7a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.navbar-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #003d7a;
+    border-radius: 4px;
+    right: 0;
+    top: 50px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dropdown-content a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-dropdown-content a:hover {
+    background-color: #0056b3;
+}
+
+/* Donation Section */
+.donation-section {
+    padding: 40px 20px;
+    background-color: #f3f4f6;
+}
+
+.donation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0056b3;
+    text-align: center;
+}
+
+.donation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.donate-button {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.donate-button:hover {
+    background-color: #e55b00;
+}
+/* Header Section */
+header {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-container h1 {
+    margin: 0;
+}
+
+.navbar-dropdown button {
+    background: #003d7a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.navbar-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #003d7a;
+    border-radius: 4px;
+    right: 0;
+    top: 50px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dropdown-content a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-dropdown-content a:hover {
+    background-color: #0056b3;
+}
+
+/* Events Section */
+.events-section {
+    padding: 40px 20px;
+    background-color: #f3f4f6;
+}
+
+.events-section h2 {
+    font-size: 28px;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#event-listings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.event-list {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-list h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.event-list p {
+    margin: 10px 0;
+}
+
+.event-register-button {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.event-register-button:hover {
+    background-color: #e55b00;
+}
+/* Global Styles */
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+}
+
+/* Header and Navbar */
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #0056b3;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #004494;
+    color: white;
+}
+
+/* Form Styles - Events Registration Page */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, .form-box h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    color: #0056b3;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+input[type="submit"].register-btn {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"].register-btn:hover {
+    background-color: #ff7518;
+}
+
+/* Centering for the Form Box */
+.form-box {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.centered-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Button Hover Effects */
+button:hover, .register-btn:hover {
+    background-color: #ff7518;
+    color: white;
+}
+
+/* Additional Global Styles */
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Networking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="nav-container">
+            <h1>Alumni Networking</h1>
+            <div class="navbar-dropdown">
+                <button>Menu</button>
+                <div class="navbar-dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="register.html">Register</a>
+                    <a href="networking.html">Networking</a>
+                    <a href="donation.html">Donation</a>
+                    <a href="jobs.html">Jobs</a>
+                    <a href="events.html">Events</a>
+                    <a href="profile.html">Profile</a>
+                    <a href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Networking Section -->
+    <section class="networking-section">
+        <div class="networking-container">
+            <div class="user-list">
+                <h3>Online Users</h3>
+                <!-- User list will be dynamically populated here -->
+                <ul>
+                    <li>John Doe</li>
+                    <li>Jane Smith</li>
+                    <li>Michael Brown</li>
+                    <!-- Add more users dynamically -->
+                </ul>
+            </div>
+            <div class="chat-box">
+                <h3>Chat with Other Alumni</h3>
+                <div class="chat-window" id="chat-window">
+                    <!-- Chat messages will be dynamically displayed here -->
+                    <div class="chat-message">
+                        <strong>John Doe:</strong> Hi everyone!
+                    </div>
+                    <div class="chat-message">
+                        <strong>Jane Smith:</strong> Hello John!
+                    </div>
+                    <!-- Add more chat messages dynamically -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="message" placeholder="Type a message">
+                    <button id="sendMessage" class="send-button">Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

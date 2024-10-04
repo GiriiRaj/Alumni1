@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="nav-container">
+            <h1>Alumni Registration</h1>
+            <div class="navbar-dropdown">
+                <button>Menu</button>
+                <div class="navbar-dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="register.html">Register</a>
+                    <a href="networking.html">Networking</a>
+                    <a href="donation.html">Donation</a>
+                    <a href="jobs.html">Jobs</a>
+                    <a href="events.html">Events</a>
+                    <a href="profile.html">Profile</a>
+                    <a href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Registration Section -->
+    <section class="register-section">
+        <div class="register-container">
+            <h2>Join Our Alumni Network</h2>
+            <p>Stay connected with your peers and take advantage of exclusive opportunities by joining our alumni network.</p>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="year">Graduation Year:</label>
+                    <input type="number" id="year" name="year" placeholder="Enter your graduation year" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="occupation">Occupation:</label>
+                    <input type="text" id="occupation" name="occupation" placeholder="Enter your occupation">
+                </div>
+
+                <!-- New Password Field -->
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <button type="button" id="sendOtpBtn" class="register-button">Register and Send OTP</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
